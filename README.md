@@ -58,6 +58,3 @@ Feature engineering and next steps (optional/advanced):
 - Create time-based features such as year, month, and day extracted from `date_added`.
 - Engineer features like number of genres per title or normalized duration for modeling tasks.
 - Prepare the cleaned dataset as a foundation for future ML tasks such as recommendation systems or predicting content trends.
-  
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/94593639/2d8ac3e2-72e1-4c41-af51-a918171051e2/Netflix-Data_-Cleaning-Analysis-and-Visualization_-_-ML-_-FA-_-DA-projects.pdf)

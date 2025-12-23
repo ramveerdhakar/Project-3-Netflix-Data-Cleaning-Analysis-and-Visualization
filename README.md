@@ -34,27 +34,7 @@ Using this data, the problem is to analyze how Netflix’s catalog has evolved o
 
 ## Project Tasks
 
-Data cleaning and preparation:  
-- Import the Netflix dataset (e.g., `netflix_titles.csv`) and inspect basic structure, shape, and data types.
-- Identify and handle missing values (e.g., in `director`, `cast`, `country`) and treat or drop rows where critical fields are missing.
-- Remove duplicate records to ensure each `show_id` is unique.
-- Convert `date_added` to a proper datetime type and verify `release_year` as numeric.
-- Standardize and, if needed, split multi-valued columns such as `listed_in` into usable structures for analysis.
-
-Exploratory data analysis (EDA):  
-- Analyze the distribution of **content** types (Movies vs TV Shows) and visualize with bar or pie charts.
-- Explore the most common genres by splitting `listed_in` and counting genre frequencies.
-- Study how much content is added over time (yearly and monthly) and visualize these trends.
-- Identify top contributing countries and visualize the top 10 countries with the highest number of titles.
-- Analyze rating distribution (e.g., TV-MA, TV-14, PG-13) and visualize frequency of ratings.
-
-Visualization and insight generation:  
-- Create bar charts and line charts to show monthly and yearly release trends for Movies vs TV Shows.
-- Build visualizations for top genres of movies and TV shows separately.
-- Highlight top directors with the highest number of titles on Netflix.
-- Generate a word cloud of movie titles or genres to visually summarize catalog themes.
-
-Feature engineering and next steps (optional/advanced):  
-- Create time-based features such as year, month, and day extracted from `date_added`.
-- Engineer features like number of genres per title or normalized duration for modeling tasks.
-- Prepare the cleaned dataset as a foundation for future ML tasks such as recommendation systems or predicting content trends.
+- Data cleaning and preparation.
+- Exploratory data analysis (EDA).
+- Visualization and insight generation.
+- Feature engineering and next steps (optional/advanced)
